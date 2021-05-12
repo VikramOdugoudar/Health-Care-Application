@@ -1,34 +1,9 @@
+@import './styles/about.css';
+@import './styles/login.css';
+@import './styles/otp.css';
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-
-.about{
-  background-color: #6ed880;
-  height: 100vh;
-  width: 100vw;
-}
-
-.logo{
-  color: white;
-  font-size: 3.5rem;
-  height: 95%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.logo p{
-  font-size: 2rem;
-}
-.logo .logo-p{
-  font-size: 1rem;
-}
-.footer{
-  color: white;
-  text-align: center;
-  font-size: 0.8rem;
 }
