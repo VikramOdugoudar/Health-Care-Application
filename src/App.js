@@ -1,8 +1,11 @@
 import "./App.css";
 import About from "./components/About"
+import Login from "./components/Login"
+
 function App() {
 	return <div className="App">
-		<About/>
+		{/* <About/> */}
+		<Login/>
 	</div>;
 }
 
