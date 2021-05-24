@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
+import "../styles/otp.css"
 import { RiCloseLine } from "react-icons/ri";
+import { NavLink } from "react-router-dom";
+
 const OtpModal = ({ open, onClose }) => {
   if (!open) return null;
-
+  
   return ReactDom.createPortal(
     <>
       <div className="otp-overlay position-fixed top-0 start-0 bottom-0 end-0"></div>
@@ -12,7 +15,7 @@ const OtpModal = ({ open, onClose }) => {
         <button className="close-btn h3 mt-1" onClick={onClose}>
           <RiCloseLine />
         </button>
-        <div className="otp-class">
+        <div className="otp-class d-flex flex-column justify-content-center align-items-center mt-0">
           <div className="otp-logo display-2 fw-bold p-3 pb-2 pt-2 text-center text-white rounded-circle m-auto mt-2 mb-3">
             C
           </div>
@@ -21,22 +24,22 @@ const OtpModal = ({ open, onClose }) => {
             <input
               className="otp-input mt-1 mb-2"
               type="text"
-              name="name"
+              name="phone"
               placeholder="Enter Phone Number"
             />
-            <button className="btn btn-primary btn-sm otp-button text-black text-dark">
+            <button className="btn mt-2 btn-primary btn-sm  text-dark text-center">
               Request OTP
             </button>
 
             <br />
             <input
-              className="otp-input mt-1 mb-2"
+              className="otp-input mt-3 mb-2"
               type="text"
-              name="name"
+              name="otp"
               placeholder="Enter OTP"
             />
-            <button className="btn btn-primary btn-sm otp-button text-black text-dark">
-              Verify
+            <button className="verify btn btn-primary btn-sm mt-2  text-black text-dark">
+              <NavLink exact to="/boarding">Verify</NavLink>
             </button>
           </form>
         </div>

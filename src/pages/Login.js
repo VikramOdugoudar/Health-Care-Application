@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
-import OtpModal from "./OtpModal";
+import OtpModal from "../components/OtpModal";
+import "../styles/login.css"
 
 const Login = () => {
 

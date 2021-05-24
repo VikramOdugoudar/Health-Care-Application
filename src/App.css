@@ -1,9 +1,9 @@
 @import './styles/about.css';
-@import './styles/login.css';
-@import './styles/otp.css';
+
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
