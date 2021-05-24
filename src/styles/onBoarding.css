@@ -1,0 +1,27 @@
+.boarding-container{
+    background-color: #e8f5e9;
+}
+.cdx{
+    background-color: #6ed880;
+    height: 8%;
+}
+.cdx input {
+    border: 0;
+    outline: 0;
+    background-color: #6ed880;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.295);
+}
+.icon-btn{
+    background-color: #6ed880;
+    border: none;
+    font-size: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+.boarding-bt{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+}
