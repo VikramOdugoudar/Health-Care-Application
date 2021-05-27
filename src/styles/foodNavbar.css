@@ -1,0 +1,15 @@
+.food-nav button{
+    background-color: white;
+    border: none;
+    
+}
+.meal .quantity{
+    font-size: 0.9rem;
+}
+.meal .meals{
+    font-size: 0.9rem;
+}
+
+.selected-items{
+    height: 10vh;
+}
