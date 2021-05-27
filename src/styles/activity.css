@@ -1,0 +1,56 @@
+.activity-container button {
+  border: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+.activity-container a {
+  text-decoration: none;
+  color: black;
+}
+.activity-body {
+  background-color: #eeeeee;
+  
+   height: 100vh;
+  /* width: 100vh;  */
+}
+
+.date-time input {
+  width: 40%;
+}
+.distance{
+    width: 90%;
+}
+.duration{
+    width: 90%;
+}
+.activity-bottom {
+  display: grid;
+  grid-template-columns: 35% 35% 25%;
+  grid-template-rows: 50% 50%;
+ 
+  
+ 
+}
+.activity-bottom .one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+} 
+.activity-bottom .two{
+   grid-row-start: 2 ;
+   grid-row-end: 3 ;
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+.activity-bottom .three{
+    grid-row-start: 2 ;
+    grid-row-end: 3 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.activity-bottom .four{
+    grid-row-start: 1 ;
+    grid-row-end: 4 ;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

@@ -1,0 +1,50 @@
+
+.doctor{
+    font-size: 0.8rem;
+    
+}
+.doctor span{
+    color: #6ed880;
+}
+.dashboard-body{
+    background-color: #eeeeee;
+    
+    
+}
+.feed .btn{
+    color: black !important;
+    font-size: 1rem !important;
+    height: 1.9rem !important;
+}
+.feed .head{
+   margin-left: 5rem; 
+
+}
+.feed h6{
+    margin-top: 0.8rem;
+    font-size: 1rem;
+}
+.feed p{
+    width: 50%;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+.feed .bottom .b1{
+    background-color: white ;
+    color: black ;
+    padding: 0.1rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0.5px 0.5px;
+    border-radius: 10px;
+
+}
+.feed .bottom .b2{
+    background-color: rgb(247, 82, 41);
+    color: white;
+    box-shadow: 0.5px 0.5px;
+}
+.foot-card p{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
