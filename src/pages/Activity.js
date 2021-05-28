@@ -95,6 +95,9 @@ const Activity = () => {
             />
             <button className="four btn btn-primary">Add Actvity</button>
           </div>
+          <div className="mt-4">
+            Calories Burned:
+          </div>
         </div>
       </div>
     </div>
