@@ -32,9 +32,9 @@ const NavBar = () => {
           </NavLink>
         </button>
         <button className="text-center mx-auto btn btn-primary btn-sm">
-          <NavLink className="d-flex mx-2 flex-column" exact to="/boarding">
+          <NavLink className="d-flex mx-2 flex-column" exact to="/profile">
             <BsViewList className="mx-auto fs-3" />
-            Boarding
+            Profile
           </NavLink>
         </button>
       </div>

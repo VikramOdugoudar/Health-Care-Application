@@ -6,6 +6,7 @@ import BoardingTwo from "./pages/OnBoardingPageTwo";
 import Dashboard from "./pages/Dashboard";
 import Activity from "./pages/Activity";
 import BloodInvestigation from "./pages/BloodInvestigation"
+import Profile from "./pages/Profile"
 import { Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/dashboard" component={Dashboard} exact />
         <Route path="/activity" component={Activity} exact />
         <Route path="/bloodInvestigation" component={BloodInvestigation} exact />
+        <Route path="/profile" component={Profile} exact />
        
       </Switch>
       

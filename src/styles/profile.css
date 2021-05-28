@@ -1,0 +1,26 @@
+.profile-container button {
+    border: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    margin-top: 0.4rem;
+  }
+  .profile-container a {
+    text-decoration: none;
+    color: black;
+  }
+  .my-profile button{
+      font-size: 0.8rem;
+      box-shadow: 3px;
+  }
+  .profile-body{
+      background-color: #d4eed7;
+      height: 100vh;
+  }
+  .profile-body .photo{
+      height: 4rem;
+      width: 4rem ;
+      
+  }
+  .card .address{
+      height: 5rem !important;
+  }
