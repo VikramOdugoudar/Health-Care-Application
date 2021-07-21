@@ -7,7 +7,6 @@
 }
 .otp-class {
   margin-top: 15%;
-  
 }
 .otp-overlay {
   background-color: rgba(0, 0, 0, 0.7);
@@ -21,9 +20,6 @@
   border: none !important;
   background-color: #6ed880 !important;
   font-size: 1rem !important;
-  
-
-
 }
 .close-btn {
   border: none;
@@ -31,7 +27,7 @@
   color: red;
   margin-left: 15px;
 }
-input  {
+input {
   background-color: white;
   border: 0;
   outline: 0;
@@ -41,8 +37,20 @@ input  {
   text-decoration: underline;
   text-decoration-color: #6ed880;
 } */
-.verify a{
-   text-decoration: none;
-   color: black;
+.verify a {
+  text-decoration: none;
+  color: black;
 }
+.grecaptcha-badge {
+  visibility: hidden;
+}
+
+/* .g-recaptcha {
+  width: 4px;
+  margin-top: 50%;
+  border-radius: 4px;
+  border-right: 1px solid #d8d8d8;
+  overflow: hidden;
+} */
+
 
